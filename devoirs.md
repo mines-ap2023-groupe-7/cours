@@ -4,7 +4,7 @@
 * Lire https://www.w3schools.com/python/python_strings.asp . Le quizz portera sur cela...
 * (option) mettre en pratique ses acquis en `Python numérique` en proposant une jolie analyse de donnée avec les résultats du quizz.
 
-## Pour le 30/11/2022
+## Pour le 7/12/2022
 
 * Finir sa PR sur https://github.com/mines-ap2022-groupe-3/agar.io. Liste des sujets proposés : https://github.com/mines-ap2022-groupe-3/agar.io/issues
 * Lire les 2 notebooks sur l'itération : 4-11-iterations-1.py  et 4-11-iterations-2.py
