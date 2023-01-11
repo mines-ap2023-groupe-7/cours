@@ -1,10 +1,10 @@
-# TP sur argparse
+# TP sur les functions
 
 ## Setup le TP
 
 A faire depuis votre repertoire depuis un nouveau répertoire.
 
-* Penser à faire à `git init` (il n'y a pas de raison de ne pas commiter de temps le projet
+* Penser à faire à `git init` (il n'y a pas de raison de ne pas commiter de temps le projet)
 
 ## L'application de syracuse
 
