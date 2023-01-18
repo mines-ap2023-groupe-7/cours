@@ -2,12 +2,12 @@
 
 ## Objectif
 
-Nous allons créé un script qui permet de générer un nouveau nom de ville qui sonne comme une ville francaise.
+Nous allons créer un script qui permet de générer un nouveau nom de ville qui sonne comme une ville française.
 
 Pour cela, on va s'inspirer d'un process de Markov (cf: https://fr.wikipedia.org/wiki/Cha%C3%AEne_de_Markov).
 
-L'idée est relativement simple : on cherche a estimer la probabler d'apparence des lettres a partir d'un référenciel (fourni) de ville
-(voir fichier villes.csv). Grace a ces données on estimera la valeur `P(l1, l2)` qui est la probabilité de voir `l2` apres avoir vu `l1`.
+L'idée est relativement simple : on cherche à estimer la probabilité d'apparence des lettres à partir d'un référentiel (fourni) de villes
+(voir fichier villes.csv). Grâce a ces données on estimera la valeur `P(l1, l2)` qui est la probabilité de voir `l2` après avoir vu `l1`.
 
 ## Setup le TP
 
@@ -17,8 +17,8 @@ A faire depuis un nouveau répertoire.
 
 ## Lecture de fichier de ville
 
-* Faire une fonction qui lit le fichier de ville et qui renvoie la liste des strings de nom de villes
-* Avec `map`. Transformer cette liste en liste de liste de characters.
+* Faire une fonction qui lit le fichier de villes et qui renvoie la liste des strings de noms de villes.
+* Avec `map`. Transformer cette liste en liste de listes de characters.
 
 ## Structure de donnée
 
@@ -28,7 +28,7 @@ Nous allons utiliser la structure suivante :
 counter = { 'A': { 'B': 100, ... }, 'B': { 'E': 42, ... }}
 # ici 100 représente le nombre de 'B' présent apres le 'A'
 
-Ecrire une function qui prends la liste de mot en entre et renvoie le compteur. ! Penser a inclure les espaces et un charactere pour indiquer la 'fin du nom de ville'.
+Ecrire une function qui prends la liste de listes de caractères en entrée et renvoie le compteur. ! Penser a inclure les espaces et un charactere pour indiquer la 'fin du nom de ville'.
 
 ## On finit le générateur
 
