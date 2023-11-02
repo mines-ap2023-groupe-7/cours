@@ -6,10 +6,13 @@ Cours de programmation en Python
 
 ---
 Pour mieux se connaitre :
-https://bit.ly/3Sq6A0S
+https://forms.gle/XmprwDunzaWtYrpg6
 ---
 L'organisation du groupe sur github, c'est :
-https://github.com/mines-ap2022-groupe-3
+https://github.com/mines-ap2023-groupe-6
+---
+L'organisation du groupe sur slack, c'est :
+#cours-5-ap-python-gr6
 ---
 # Comment va se passer le cours ?
 ---
@@ -56,7 +59,7 @@ https://github.com/mines-ap2022-groupe-3
 ![couteau suisse|300](https://imageengine.victorinox.com/mediahub/39710/560Wx490H/SAK_1_3713__S1.jpg)
 ---
 * Data avec **numpy** / **panda** / etc.
-* IA avec **Tensorflow** / **pytorch** / **keras** / etc.
+* IA avec **Tensorflow** / **pytorch** / **keras** / **LangChain** / etc.
 * Du web **Django** / **FastAPI** / **Flask** / etc.
 * Des scripts
 ---
