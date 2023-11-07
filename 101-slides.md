@@ -3,16 +3,6 @@ par Raphael Prasquier
 
 Module AP - Apprentissage de la Programmation
 Cours de programmation en Python
-
----
-Pour mieux se connaitre :
-https://forms.gle/XmprwDunzaWtYrpg6
----
-L'organisation du groupe sur github, c'est :
-https://github.com/mines-ap2023-groupe-6
----
-L'organisation du groupe sur slack, c'est :
-#cours-5-ap-python-gr6
 ---
 # Comment va se passer le cours ?
 ---
