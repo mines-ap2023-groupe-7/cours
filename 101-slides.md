@@ -93,11 +93,6 @@ L'organisation du groupe sur slack, c'est :
 * L'infra et/ou un SDK existe dans d'autres langages mais pas en Python 
 	* > exemple important : développement mobile iOS/Android
 
----
-### Et la planète dans tout ça ?
-> Python n'est pas vert du tout
-
-![Consommation](https://lh5.googleusercontent.com/JcUC6zYJ8fPcT6nGm7cCUrHE5FwLYQAvUJMg00M51l1EcZCgbSonYHl7uzH1dFmB5oYgTUZYA1SkYkcaplNS7ed4F4hhuS3TUOVv2JIBwkw=w1280)
 
 ---
 
