@@ -1,22 +1,22 @@
-# TP sur les iterables - Fizzbuzz
+# TP sur les itérables - FizzBuzz
 
-## Setup le TP
+## Configuration du TP
 
-A faire depuis votre repertoire du cours
+À faire depuis votre répertoire de cours :
 
-* Effectuer un `git pull` pour récupérer la dernière version
-* Créer une branche `fizzbuzz-<nom_github>`
-* Créer un fichier fizzbuzz.py
+* Effectuez un `git pull` pour récupérer la dernière version.
+* Créez une branche `fizzbuzz-<nom_github>`.
+* Créez un fichier `fizzbuzz.py`.
 
 
-## Le fizzbuzz
+## Le FizzBuzz
 
-Voir https://en.wikipedia.org/wiki/Fizz_buzz.
+Voir [Fizz buzz sur Wikipedia](https://en.wikipedia.org/wiki/Fizz_buzz).
 
-Objectif créer un enumerable qui compte en remplacant les multiples de 3 par 'fizz', les multiples de 5 par 'buzz'.
+Objectif : créer un itérable qui compte en remplaçant les multiples de 3 par 'fizz', les multiples de 5 par 'buzz'.
 
 ```bash
-$ python fizzbuzz 20
+$ python fizzbuzz.py 20
 > 1
 > 2
 > fizz
@@ -31,7 +31,7 @@ $ python fizzbuzz 20
 > fizz
 > 13
 > 14
-> fizz buzz
+> fizzbuzz
 > 16
 > 17
 > fizz
@@ -39,33 +39,32 @@ $ python fizzbuzz 20
 > buzz
 ```
 
-## Le code
-
-### Version basic
-Code à trou
+Le code
+Version basique
+Code à trous :
 
 ```python
+Copy code
 def fizzbuzz():
     # ...
     return enum
 
-# rajouter une condition pour que cela s'arrète à 20
-for i in fizzbuz():
+# Ajouter une condition pour que cela s'arrête à 20
+for i in fizzbuzz():
     print(i)
-    #...
-
-
+    # ...
+```
 
 
 ### Avec lanceur / point d'entrée
 
-Rajouter le code nécessaire pour pouvoir permettre de lancer le programme via `python fizzbuzz.py 20`
+Ajoutez le code nécessaire pour permettre de lancer le programme via `python fizzbuzz.py 20`.
 
-### Fizzbuzz customizable
+### FizzBuzz personnalisable
 
-Rajouter un dictionnaire permettant de paramètrer la function `fizzbuzz`. Le dictionnaire doit être de la forme { 3: "fizz", 5: "buzz" } pour le fizzbuzz 'classique' et plus généralement un dictionnaire clef -> valeur avec clef le nombre à utiliser comme modulo et valeur: le texte a faire apparaitre.
+Ajoutez un dictionnaire permettant de paramétrer la fonction `fizzbuzz`. Le dictionnaire doit être de la forme { 3: "fizz", 5: "buzz" } pour le FizzBuzz 'classique' et, plus généralement, un dictionnaire clé -> valeur, avec clé le nombre à utiliser comme modulo et valeur : le texte à faire apparaître.
 
-Les éléments à rajouter pour les plus rapide :
-* un doctring pour la méthode 'fizzbuzz'
-* Une valeur par défault
-* adapter les arguments du script pour permettre de passer les options pour un fizzbuzz customizable.
+Éléments à ajouter pour les plus rapides :
+* Un docstring pour la méthode `fizzbuzz`.
+* Une valeur par défaut.
+* Adapter les arguments du script pour permettre de passer les options pour un FizzBuzz personnalisable.
