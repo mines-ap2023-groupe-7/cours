@@ -44,7 +44,6 @@ Version basique
 Code à trous :
 
 ```python
-Copy code
 def fizzbuzz():
     # ...
     return enum
