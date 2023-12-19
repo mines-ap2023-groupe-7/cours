@@ -1,65 +1,80 @@
-# TP 'ca sent le sapin'
+# TP 'Ça sent le sapin'
 
 ## Configuration du TP
 
-À faire depuis votre répertoire de cours :
+**Objectif :** Préparer votre environnement de travail pour le TP.
 
-* Effectuez un `git pull` pour récupérer la dernière version.
-* Effectuez un `git stash` pour mettre de coté ce qui n'est pas commité
-* Créez une branche `sapin-<nom_github>`.
-* Créez un fichier `sapin.py`.
-* On créé un environnement conda dédié : `conda create -n sapin python=3.11` puis `conda activate sapin`
+**Instructions :**
+1. **Récupérez la dernière version des cours :**
+   - Exécutez `git pull` dans votre répertoire de cours.
+2. **Sauvegardez votre travail en cours :**
+   - Utilisez `git stash` pour mettre de côté les modifications non commitées.
+3. **Préparez votre espace de travail pour le TP :**
+   - Créez une nouvelle branche nommée `sapin-<nom_github>`.
+   - Créez un fichier `sapin.py` dans cette branche.
+4. **Configurez l'environnement Python :**
+   - Créez un environnement conda dédié : `conda create -n sapin python=3.11`.
+   - Activez l'environnement : `conda activate sapin`.
 
+## Le Sujet
 
-## Le sujet
+**But :** Réaliser une application graphique avec Pygame affichant un sapin de Noël et permettant d'y ajouter des décorations interactives.
 
-Sujet relativement simple en 2 parties. 
+### Projet Minimal
 
-L'objectif est de faire une petite application avec un sapin sur lequel on fait apparaitre des figures/boules colorés.
+**Objectif :** Mettre en place l'application de base avec Pygame.
 
-## Projet minimal
+**Étapes :**
+1. Installez le module Pygame : `pip install pygame`.
+2. Implémentez une application Pygame basique :
+   ```python
+   import pygame
 
-1. On installe le module 'pygame'
-2. Version minimal pour une application :
- 
-```python
-import pygame
+   pygame.init()
 
-pygame.init()
+   screen = pygame.display.set_mode((640, 480))
+   clock = pygame.time.Clock()
 
-screen = pygame.display.set_mode( (640, 480) )
+   while True:
+       clock.tick(1)
 
-clock = pygame.time.Clock()
+       for event in pygame.event.get():
+           pass
 
-while True:
-    clock.tick(1)
+       screen.fill((0, 255, 0))
+       pygame.display.update()
+   ```
+3. Testez l'application :
+   - Lancez l'application.
+   - Assurez-vous que vous pouvez fermer l'application correctement.
 
-    for event in pygame.event.get():
-        pass
-
-    screen.fill( (0, 255, 0) )
-
-    pygame.display.update()
-```
-
-3. On vérifie qu'on arrive à lancer le jeu + le tuer (on kill le process)
-
-### Le TP
+### Le TP en Détail
 
 #### Background
 
-1. On change l'orientation du jeu
-2. Trouver/générer une belle image de fond avec un sapin sans décorations.
-3. On charge cette image dans le jeu.
- 
-#### Les boules
+**Objectif :** Personnaliser l'arrière-plan de l'application.
 
-Objectifs, lorsqu'on clique, on affiche une boule
+**Étapes :**
+1. Modifiez l'orientation de l'affichage.
+2. Trouvez ou créez une image de fond représentant un sapin sans décorations.
+3. Intégrez cette image comme arrière-plan dans l'application.
 
-![CleanShot 2023-12-19 at 10.13.00.gif](..%2F..%2FLibrary%2FApplication%20Support%2FCleanShot%2Fmedia%2Fmedia_ZItDfxmKLr%2FCleanShot%202023-12-19%20at%2010.13.00.gif)
+#### Les Boules
 
-### Les évolutions
+**Objectif :** Ajouter des interactions pour décorer le sapin.
 
-1. Lorsqu'on reclique sur l'image on en change la couleur
-2. Tracer une autre figure
-3. Faire varier la couleur des boules dans le temps
+![animation-sapin.gif](animation-sapin.gif)
+
+**Étapes :**
+1. Implémentez une fonctionnalité permettant d'afficher à l'écran une liste de boules de noel (bien choisir sa structure de données pour les boules).
+2. Ajoutez la possibilité de rajouter une boule à chaque click de souris.
+
+### Évolutions
+
+**Objectif :** Améliorer et diversifier les interactions.
+
+**Étapes :**
+1. Permettez de changer la couleur de la boule en recliquant dessus.
+2. Gérer plusieurs taille de boules si on click sur le bouton droit ou le bouton gauche.
+3. Ajoutez la possibilité de tracer d'autres formes sur le sapin.
+4. Implémentez un effet où la couleur des boules varie avec le temps.
